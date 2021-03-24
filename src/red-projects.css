@@ -1,0 +1,20 @@
+h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.red-folder {
+    background-color: red;
+    width: 20%;
+    padding: 20px 10px;
+}
+
+.material-icons {
+    color: white;
+}

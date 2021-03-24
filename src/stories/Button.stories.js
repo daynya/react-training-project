@@ -15,6 +15,7 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
+  size: 'large',
   label: 'Primary Clicker',
 };
 
