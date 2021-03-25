@@ -9,10 +9,21 @@ h2 {
     text-transform: uppercase;
 }
 
-.red-folder {
-    background-color: red;
+.folder {
     width: 20%;
     padding: 20px 10px;
+}
+
+.red-folder {
+    background-color: red;
+}
+
+.yellow-folder {
+    background-color: yellow;
+}
+
+.green-folder {
+    background-color: green;
 }
 
 .material-icons {
