@@ -1,4 +1,4 @@
-/* import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -14,10 +14,10 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals(); */
+reportWebVitals();
 
 
-import React from 'react';
+/* import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -108,6 +108,19 @@ function LeftNav(props) {
   );
 }
 
+function FolderDisplay(props) {
+  return (
+    <div className="folder-display">
+      <div className="folder-display-header">
+        All Projects
+      </div>
+      <div className="folder-table">
+
+      </div>
+    </div>
+  )
+}
+
 ReactDOM.render(
   <Directory>
     <TopNav></TopNav>
@@ -117,6 +130,7 @@ ReactDOM.render(
       <Red />
       <Yellow />
       <Green />
+      <FolderDisplay></FolderDisplay>
     </Folders>
   </Directory>,
   document.getElementById('root')
@@ -126,3 +140,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+ */
